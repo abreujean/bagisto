@@ -30,6 +30,13 @@ return [
     | Shetabit\Visitor\Contracts\UserAgentParser in your driver.
     |
     */
+    'geoip'   => false,           // disable enrichment by default
+    'resolver'=> 'stevebauman',   // default resolver
+    'resolvers' => [
+        'stevebauman' => \Shetabit\Visitor\Resolvers\GeoIp\SteveBaumanResolver::class,
+        'null'        => \Shetabit\Visitor\Resolvers\GeoIp\NullResolver::class,
+    ],
+
     'drivers' => [
         'jenssegers' => \Shetabit\Visitor\Drivers\JenssegersAgent::class,
         'UAParser' => \Shetabit\Visitor\Drivers\UAParser::class,
