@@ -4418,6 +4418,8 @@ return [
                     'sort-order' => 'Ordem de Classificação',
                     'status' => 'Status',
                     'title' => 'Título',
+                    'asaas' => 'Asaas',
+                    'asaas-info' => 'Gateway de pagamento brasileiro com PIX, Boleto e Cartão de Crédito',
                 ],
 
                 'order-settings' => [

@@ -1,0 +1,24 @@
+{
+    "name": "bagisto/laravel-asaas",
+    "description": "Asaas Payment Gateway for Bagisto",
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Asaas\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Asaas\\Providers\\AsaasServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

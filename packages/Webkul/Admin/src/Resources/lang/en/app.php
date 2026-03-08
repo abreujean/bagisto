@@ -4418,6 +4418,8 @@ return [
                     'sort-order' => 'Sort Order',
                     'status' => 'Status',
                     'title' => 'Title',
+                    'asaas' => 'Asaas',
+                    'asaas-info' => 'Brazilian payment gateway with PIX, Boleto and Credit Card',
                 ],
 
                 'order-settings' => [
